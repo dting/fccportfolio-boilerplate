@@ -115,22 +115,6 @@ gulp.task('serve:dist', () => {
   });
 });
 
-gulp.task('serve:test', () => {
-  browserSync({
-    notify: false,
-    port: 9000,
-    ui: false,
-    server: {
-      baseDir: 'test',
-      routes: {
-        '/bower_components': 'bower_components'
-      }
-    }
-  });
-
-  gulp.watch('test/spec/**/*.js').on('change', reload);
-});
-
 // inject bower components
 gulp.task('wiredep', () => {
   gulp.src('app/styles/*.less')
