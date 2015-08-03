@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "jquery-ui": "~1.11.4",
+    "angular": "~1.4.3"
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  }
+}
