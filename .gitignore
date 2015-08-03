@@ -2,6 +2,7 @@ node_modules
 .tmp
 bower_components
 test/bower_components
+app/styles/css
 
 # Created by https://www.gitignore.io
 
